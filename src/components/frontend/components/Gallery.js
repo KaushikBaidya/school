@@ -43,7 +43,7 @@ const Gallery = () => {
             <div className="max-w-[1500px] mx-auto px-10">
               <Swiper
                 slidesPerView={1}
-                spaceBetween={10}
+                spaceBetween={0}
                 autoplay={{
                   delay: 3000,
                   disableOnInteraction: false,

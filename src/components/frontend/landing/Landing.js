@@ -8,6 +8,8 @@ import Contact from "../components/Contact";
 import Blogs from "../components/Blogs";
 import Gallery from "../components/Gallery";
 import Speciality from "../components/Speciality";
+import Teachers from "../components/Teachers";
+import Testimonial from "../components/Testimonial";
 
 function Landing() {
   return (
@@ -16,6 +18,8 @@ function Landing() {
       <Services />
       <About />
       <Speciality />
+      <Teachers />
+      <Testimonial />
       <Blogs />
       <Gallery />
       <Contact />
