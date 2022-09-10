@@ -4,25 +4,25 @@ const Teachers = () => {
   const data = [
     {
       id: "0",
-      img: "/images/teacher/T1.jpg",
+      img: "/images/teacher/t1.jpg",
       title: "English Teacher",
       name: "Ms. Linda",
     },
     {
       id: "1",
-      img: "/images/teacher/T1.jpg",
+      img: "/images/teacher/t1.jpg",
       title: "English Teacher",
       name: "Ms. Linda",
     },
     {
       id: "2",
-      img: "/images/teacher/T1.jpg",
+      img: "/images/teacher/t1.jpg",
       title: "English Teacher",
       name: "Ms. Linda",
     },
     {
       id: "3",
-      img: "/images/teacher/T1.jpg",
+      img: "/images/teacher/t1.jpg",
       title: "English Teacher",
       name: "Ms. Linda",
     },

@@ -1,4 +1,4 @@
-import { FaQuoteRight } from "react-icons/fa";
+// import { FaQuoteRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
@@ -10,7 +10,7 @@ const Testimonial = () => {
   const data = [
     {
       id: "1",
-      img: "/images/teacher/T1.jpg",
+      img: "/images/teacher/t1.jpg",
       name: "Rebeca Jones",
       relation: "Mother",
       quote:
@@ -18,7 +18,7 @@ const Testimonial = () => {
     },
     {
       id: "2",
-      img: "/images/teacher/T1.jpg",
+      img: "/images/teacher/t1.jpg",
       name: "Kyle Rodrigez",
       relation: "Mother",
       quote:
@@ -26,14 +26,14 @@ const Testimonial = () => {
     },
     {
       id: "3",
-      img: "/images/teacher/T1.jpg",
+      img: "/images/teacher/t1.jpg",
       name: "Jenefer",
       relation: "Mother",
       quote:
         "I had no idea how to get the whole process started and rocketship mentors were great when it came to helping me leverage my sporting and academic credentials and shaping my essay.",
     },
   ];
-  console.log(data);
+  // console.log(data);
   return (
     <section>
       <div className="w-full grid grid-cols-1 justify-items-center content-center my-14">
