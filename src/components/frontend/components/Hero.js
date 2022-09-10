@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div
         id="seeHero"
-        className="w-full h-[550px] 3xl:h-[700px] relative overflow-hidden text-white bg-[#e3e0e0]"
+        className="w-full h-[550px] 3xl:h-[700px] relative overflow-hidden text-white bg-[#f4f4f4]"
       >
         <div className="w-full h-full absolute opacity-0 myAnimation slideShowItem">
           <img
