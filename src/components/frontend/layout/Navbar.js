@@ -34,7 +34,7 @@ export default function Navbar({ fixed }) {
       >
         <div className="w-full flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link to="/">
-            <div className="lg:w-[400px] flex justify-center items-center">
+            <div className="lg:w-[400px] flex justify-center gap-2 items-center">
               <img src="/images/logo.png" alt="" className="h-12 ml-5" />
               <h1 className="text-[#20702e] font-semibold text-lg lg:text-2xl">
                 Bir Muktijoddha Giasuddin Islamic Girls School
@@ -59,7 +59,7 @@ export default function Navbar({ fixed }) {
                 HOME
               </a>
             </li>
-            <li className=" p-4   text-sm font-medium uppercase">
+            <li className=" p-4 text-sm font-medium uppercase">
               {/* <a href="#seeAbout" onClick={() => setNavbarOpen(!navbarOpen)}>
                 ABOUT
               </a> */}
@@ -135,10 +135,7 @@ export default function Navbar({ fixed }) {
                 </Transition>
               </Menu>
             </li>
-            <li className=" p-4   text-sm font-medium uppercase">
-              {/* <a href="#seeAbout" onClick={() => setNavbarOpen(!navbarOpen)}>
-                ABOUT
-              </a> */}
+            {/* <li className=" p-4 text-sm font-medium uppercase">
               <Menu as="div" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="inline-flex w-full justify-center uppercase">
@@ -225,7 +222,7 @@ export default function Navbar({ fixed }) {
                   </Menu.Items>
                 </Transition>
               </Menu>
-            </li>
+            </li> */}
             <li className=" p-4   text-sm font-medium uppercase">
               {/* <a href="#seeAbout" onClick={() => setNavbarOpen(!navbarOpen)}>
                 ABOUT
@@ -293,7 +290,7 @@ export default function Navbar({ fixed }) {
                               "block px-4 py-2 text-sm"
                             )}
                           >
-                            Admission Agreement
+                            Prospectus
                           </a>
                         )}
                       </Menu.Item>
@@ -309,21 +306,6 @@ export default function Navbar({ fixed }) {
                             )}
                           >
                             Scholarship
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#a"
-                            className={classNames(
-                              active
-                                ? "bg-gray-100 text-gray-900"
-                                : "text-gray-700",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Transfer Procedure
                           </a>
                         )}
                       </Menu.Item>
@@ -369,21 +351,6 @@ export default function Navbar({ fixed }) {
                               "block px-4 py-2 text-sm"
                             )}
                           >
-                            Fees
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#a"
-                            className={classNames(
-                              active
-                                ? "bg-gray-100 text-gray-900"
-                                : "text-gray-700",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
                             Class Books
                           </a>
                         )}
@@ -415,21 +382,6 @@ export default function Navbar({ fixed }) {
                             )}
                           >
                             News and Events
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#a"
-                            className={classNames(
-                              active
-                                ? "bg-gray-100 text-gray-900"
-                                : "text-gray-700",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Academic Calendar
                           </a>
                         )}
                       </Menu.Item>
