@@ -13,8 +13,8 @@ const Hero = () => {
             className="w-full h-full object-cover myImgAnimation"
             alt=""
           />
-          <div className="max-w-[70%] lg:max-w-[50%] absolute top-[50%] left-[15%] lg:left-0 translate-y-[-50%]  py-10 px-5">
-            <h1 className="text-[1.8rem] lg:text-[3.5rem] font-sans font-semibold uppercase pb-4 tracking-wide">
+          <div className="max-w-[70%] lg:max-w-[70%] absolute top-[50%] left-[15%]  translate-y-[-50%] py-10 px-5">
+            <h1 className="text-[1.8rem] lg:text-[4.5rem] font-sans font-semibold uppercase pb-4 text-center tracking-wide">
               Online and regular Admission
             </h1>
           </div>
@@ -25,8 +25,8 @@ const Hero = () => {
             className="w-full h-full object-cover myImgAnimation"
             alt=""
           />
-          <div className="max-w-[70%] lg:max-w-[50%] absolute top-[50%] left-[15%] lg:left-0 translate-y-[-50%]  py-10 px-5">
-            <h1 className="text-[1.8rem] lg:text-[3.5rem] font-sans font-semibold uppercase pb-4 tracking-wide">
+          <div className="max-w-[70%] lg:max-w-[50%] absolute top-[50%] left-[15%] lg:left-[25%] translate-y-[-50%]  py-10 px-5">
+            <h1 className="text-[1.8rem] lg:text-[4.5rem] font-sans font-semibold uppercase pb-4 text-center tracking-wide">
               100% Passing Rate.
             </h1>
           </div>
@@ -38,8 +38,8 @@ const Hero = () => {
             className="w-full h-full object-cover myImgAnimation"
             alt=""
           />
-          <div className="max-w-[70%] lg:max-w-[50%] absolute top-[50%] left-[15%] lg:left-0 translate-y-[-50%]  py-10 px-5">
-            <h1 className="text-[1.8rem] lg:text-[3.5rem] font-sans font-semibold uppercase pb-4 tracking-wide">
+          <div className="max-w-[70%] lg:max-w-[70%] absolute top-[50%] left-[15%] lg:left-[15%] translate-y-[-50%]  py-10 px-5">
+            <h1 className="text-[1.8rem] lg:text-[4.5rem] font-sans font-semibold uppercase pb-4 text-center tracking-wide">
               Neat & Clean Campass Area.
             </h1>
           </div>

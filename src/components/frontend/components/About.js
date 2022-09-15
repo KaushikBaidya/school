@@ -47,7 +47,9 @@ function Landmark() {
       <div className="max-w-[1500px] mx-auto grid grid-cols-1 lg:grid-cols-2 px-6 gap-x-5">
         <div className="grid grid-cols-1 mt-6 px-5">
           <div>
-            <h1 className="text-left text-2xl">What we Offer</h1>
+            <h1 className="text-2xl text-slate-600 font-bold sm:mt-4 text-left uppercase tracking-wider">
+              What we Offer
+            </h1>
             <p className="text-lg text-gray-500">
               We are offering various facilities to our precious students for
               them to grow more.
@@ -56,11 +58,11 @@ function Landmark() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-5">
             {data.map((item) => (
               <div key={item.id} className="py-3 flex justify-around gap-x-2">
-                <div className="w-20 h-20 bg-[#4BB833] flex items-center rounded-full">
+                <div className="w-20 h-20 bg-[#20702E] flex items-center rounded-full">
                   <item.icon size={25} className="mx-auto text-white" />
                 </div>
                 <div className="w-40">
-                  <h1 className="text-gray-800 font-semibold text-lg">
+                  <h1 className="text-slate-700 sm:mt-4 text-left uppercase tracking-wider text-lg">
                     {item.title}
                   </h1>
                   <p className="text-gray-500">{item.details}</p>
@@ -71,7 +73,7 @@ function Landmark() {
         </div>
         <div className="text-black p-6 md:text-xl">
           <p className="font-bold text-xl font-mono text-left">Welcome To</p>
-          <h1 className="font-bold text-[36px] font-sans text-left leading-10 mb-2">
+          <h1 className="text-[24px] text-slate-600 font-bold sm:mt-4 lg:text-[36px] text-left leading-10 uppercase tracking-wider">
             Bir Muktijoddha Giasuddin Islamic Girls School
           </h1>
           <hr />
