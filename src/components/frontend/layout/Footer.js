@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-[1500px] grid grid-cols-1 md:grid-cols-4 gap-y-2 px-10">
+        {/* <div className="max-w-[1500px] grid grid-cols-1 md:grid-cols-4 gap-y-2 px-10">
           <div className="grid grid-cols-1 justify-items-start">
             <p className="text-sm lg:text-2xl text-[#20702e] font-semibold font-sans text-left px-5 ">
               UK (Head) Office
@@ -126,7 +126,7 @@ const Footer = () => {
               <a href="#seeService">Service</a>
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="text-center pb-16 md:pb-0 bg-[#20702e] py-1">
         <p className="text-uppercase font-bold text-gray-200">
