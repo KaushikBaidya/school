@@ -510,8 +510,8 @@ export default function Navbar({ fixed }) {
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#a"
+                          <Link
+                            to="/teachers"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -520,7 +520,7 @@ export default function Navbar({ fixed }) {
                             )}
                           >
                             Teachers
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
