@@ -540,8 +540,8 @@ export default function Navbar({ fixed }) {
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#a"
+                          <Link
+                            to="/gallery"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -550,7 +550,7 @@ export default function Navbar({ fixed }) {
                             )}
                           >
                             Photo Gallery
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                     </div>
