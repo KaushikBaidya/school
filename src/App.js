@@ -19,6 +19,7 @@ const ClassBook = lazy(() => import("./components/frontend/pages/ClassBook"));
 const ResultHistory = lazy(() =>
   import("./components/frontend/pages/ResultHistory")
 );
+const News = lazy(() => import("./components/frontend/pages/News"));
 
 function App() {
   const Wrapper = ({ children }) => {
@@ -44,6 +45,7 @@ function App() {
             <Route exact path="/scholarship" element={<Scholarship />} />
             <Route exact path="/classbooks" element={<ClassBook />} />
             <Route exact path="/result" element={<ResultHistory />} />
+            <Route exact path="/news" element={<News />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
