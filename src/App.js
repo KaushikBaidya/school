@@ -23,6 +23,7 @@ const News = lazy(() => import("./components/frontend/pages/News"));
 const Comitie = lazy(() => import("./components/frontend/pages/Comitie"));
 const Teachers = lazy(() => import("./components/frontend/pages/Teachers"));
 const Job = lazy(() => import("./components/frontend/pages/Job"));
+const Gallery = lazy(() => import("./components/frontend/components/Gallery"));
 
 function App() {
   const Wrapper = ({ children }) => {
@@ -52,6 +53,7 @@ function App() {
             <Route exact path="/comitie" element={<Comitie />} />
             <Route exact path="/teachers" element={<Teachers />} />
             <Route exact path="/job" element={<Job />} />
+            <Route exact path="/gallery" element={<Gallery />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
