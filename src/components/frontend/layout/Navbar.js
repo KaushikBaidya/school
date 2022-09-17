@@ -495,8 +495,8 @@ export default function Navbar({ fixed }) {
                     <div className="py-1">
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#a"
+                          <Link
+                            to="/comitie"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -505,7 +505,7 @@ export default function Navbar({ fixed }) {
                             )}
                           >
                             Mangement Comitie
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
