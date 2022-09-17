@@ -23,7 +23,7 @@ const News = lazy(() => import("./components/frontend/pages/News"));
 const Comitie = lazy(() => import("./components/frontend/pages/Comitie"));
 const Teachers = lazy(() => import("./components/frontend/pages/Teachers"));
 const Job = lazy(() => import("./components/frontend/pages/Job"));
-const Gallery = lazy(() => import("./components/frontend/components/Gallery"));
+const Gallery = lazy(() => import("./components/frontend/pages/Gallery"));
 
 function App() {
   const Wrapper = ({ children }) => {
