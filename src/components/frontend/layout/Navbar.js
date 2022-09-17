@@ -525,8 +525,8 @@ export default function Navbar({ fixed }) {
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a
-                            href="#a"
+                          <Link
+                            to="/job"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -535,7 +535,7 @@ export default function Navbar({ fixed }) {
                             )}
                           >
                             Job Vacancy
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
