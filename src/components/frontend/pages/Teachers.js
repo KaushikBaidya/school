@@ -28,7 +28,7 @@ const Teachers = () => {
     },
   ];
   return (
-    <div className="lg:px-24 grid gap-y-5 py-5">
+    <div className="lg:px-24 grid gap-y-5 py-20">
       <div className="grid place-content-center mt-10">
         <h1 className="text-center text-4xl text-[#20702E] font-semibold uppercase">
           Teachers List
