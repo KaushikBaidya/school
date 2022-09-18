@@ -28,16 +28,12 @@ const Teachers = () => {
     },
   ];
   return (
-    <div className="lg:px-24 grid gap-y-5 py-20">
-      <div className="grid place-content-center mt-10">
-        <h1 className="text-center text-4xl text-[#20702E] font-semibold uppercase">
-          Teachers List
-        </h1>
-        <h3 className="max-w-[600px] text-[18px] text-slate-500 font-normal sm:mt-4 text-center px-5 uppercase tracking-wider">
-          We greatlly care about our precious students. So we always try to
-          povide best teachers available.
-        </h3>
-      </div>
+    <div className="max-w-6xl flex flex-col items-center gap-4 px-10 lg:mx-auto py-28 ">
+      <h1 className="text-center text-4xl text-[#20702E] font-semibold uppercase">
+        Teachers List
+      </h1>
+      <hr className="w-24 h-1 bg-[#EC1B23]" />
+
       <div className="max-w-[1700px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-6">
         {data.map((item) => (
           <div
