@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useLayoutEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { FallbackLoading } from "./components/Loading";
-import { Toaster } from "react-hot-toast";
+// import { Toaster } from "react-hot-toast";
 import "./App.css";
 
 const NotFound = lazy(() => import("./components/frontend/pages/NotFound"));
@@ -36,7 +36,7 @@ function App() {
 
   return (
     <Suspense fallback={<FallbackLoading />}>
-      <Toaster position="top-right" reverseOrder={false} />
+      {/* <Toaster position="top-right" reverseOrder={false} /> */}
       <Wrapper>
         <Routes>
           <Route element={<Layout />}>
