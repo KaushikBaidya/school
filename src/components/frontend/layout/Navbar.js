@@ -51,7 +51,7 @@ export default function Navbar({ fixed }) {
         </div>
 
         <div
-          className={"lg:flex flex-grow " + (navbarOpen ? "flex" : " hidden")}
+          className={"xl:flex flex-grow " + (navbarOpen ? "flex" : " hidden")}
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className=" p-4   text-sm font-medium uppercase">
